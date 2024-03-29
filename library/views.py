@@ -4,4 +4,4 @@ def home(request):
     return HttpResponse("<h1>Hello this is library homepage</h1>")
 
 def about(request):
-    return HttpResponse("<h1>Hello this is library")
+    return render(request, "h1.html")
